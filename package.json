@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Codrops",
   "homepage": "https://tympanus.net/codrops",
@@ -15,6 +17,7 @@
   },
   "dependencies": {
     "gsap": "^3.9.1",
-    "imagesloaded": "^5.0.0"
+    "imagesloaded": "^5.0.0",
+    "node-sass": "^7.0.1"
   }
 }
