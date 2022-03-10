@@ -7,8 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Codrops",
-  "license": "ISC",
+  "homepage": "https://tympanus.net/codrops",
+  "article": "https://tympanus.net/codrops/2022/02/22/repetition-image-hover-effects/",
+  "license": "MIT",
   "devDependencies": {
     "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "imagesloaded": "^5.0.0"
   }
 }
